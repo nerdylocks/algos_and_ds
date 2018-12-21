@@ -1,4 +1,4 @@
-require_relative "./adts/stack"
+require_relative "../adts/stack"
 
 class BinaryTreePrinter
   attr_reader :node

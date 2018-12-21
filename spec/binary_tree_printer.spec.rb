@@ -23,7 +23,7 @@ RSpec.describe BinaryTreePrinter do
 
   describe "#dfs_print" do
     it "prints dfs order" do
-      expect(subject.dfs_print).to eq([2, 4, 5, 3, 6, 7])
+      expect(subject.dfs_print).to eq([1, 2, 4, 5, 3, 6, 7])
     end
   end
 end
